@@ -1,0 +1,10 @@
+@media only screen and (max-width: 576.98px) {
+	.posts-list {
+		a {
+			flex-direction: column;
+		}
+		&__image {
+			width: 100%;
+		}
+	}
+}

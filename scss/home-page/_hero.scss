@@ -1,0 +1,178 @@
+.hero {
+  position: relative;
+  padding-top: 14.5rem;
+  padding-bottom: 25rem;
+  background-color: #ffc801;
+  &__slider {
+    position: absolute;
+    inset: 0 0 0 0;
+    z-index: 0;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 36%, rgba(46, 46, 46, 0.3) 100%);
+    }
+  }
+}
+.offer {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  max-width: 70rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  &__logo {
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    img {
+      width: 18.2rem;
+      height: 18.2rem;
+    }
+    &:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: -1.6rem;
+      left: -1.4rem;
+      width: 21.2rem;
+      height: 21.2rem;
+      background-image: url('../../assets/img/home-page/logo-hero-2.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      animation: 20s linear 0s normal none infinite running rot;
+    }
+  }
+  &__title {
+    margin-bottom: 0.5rem;
+    position: relative;
+    z-index: 1;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #fff;
+    letter-spacing: 0.1em;
+  }
+  &__subtitle {
+    position: relative;
+    z-index: 1;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+    color: #fff;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.5rem;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+  }
+  &__descr {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 8rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffc801;
+    letter-spacing: 0.2em;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+  }
+  &__btn {
+    margin-bottom: 6rem;
+    width: 22rem;
+    padding: 1.7rem;
+    background-color: $green;
+    border-radius: 3rem 0.5rem 3rem 0.5rem;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.15em;
+    animation-name: flipInX;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+    backface-visibility: visible !important;
+  }
+  &__play {
+    position: relative;
+    border: none;
+    svg {
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+      circle {
+        transition: stroke 0.3s ease;
+      }
+      path {
+        transition: fill 0.3s ease;
+      }
+    }
+    cursor: pointer;
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    &::after {
+      content: 'смотреть видео';
+      position: absolute;
+      right: -18rem;
+      top: calc(50% - 1.5rem);
+      width: max-content;
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 0.05em;
+      transition: color 0.3s ease;
+    }
+    &:hover {
+      svg {
+        opacity: 1;
+        circle {
+          stroke: #ffc801;
+        }
+        path {
+          fill: #ffc801;
+        }
+      }
+      &::after {
+        color: #ffc801;
+      }
+    }
+  }
+}
+
+.swiper-slide .hero__img,
+.swiper-slide-duplicate .hero__img {
+  transform: scale(1);
+  transition: transform 10s ease;
+}
+
+.swiper-slide-active.swiper-slide-visible .hero__img,
+.swiper-slide-duplicate-active .hero__img {
+  transform: scale(1.2);
+  transition: transform 10s ease;
+}

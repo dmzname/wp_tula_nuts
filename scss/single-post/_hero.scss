@@ -1,0 +1,72 @@
+.single-post-hero {
+	padding-top: 15rem;
+	&__title-wrapper {
+		margin-bottom: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 30rem;
+		border-top: 5px solid #FFC801;
+	}
+	&__title {
+		padding: 0 13.5rem;
+		font-family: "Montserrat", sans-serif;
+		font-size: 4.5rem;
+		line-height: 5.5rem;
+		letter-spacing: 0.1em;
+		text-align: center;
+		color: #FFFFFF;
+		text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+		filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.25));
+		@media only screen and (max-width: 767.98px) {
+			padding: 0 2rem;
+			font-size: 3.5rem;
+			line-height: 4rem;
+		}
+	}
+	&_post_1 {
+		.single-post-hero__title-wrapper {
+			background: linear-gradient(0deg, rgba(0,0,0,0.5) 36%, rgba(46,46,46,0.3) 100%), url("../assets/img/single-posts/post_1.jpg") no-repeat center center /cover;
+		}
+	}
+	&_post_2 {
+		.single-post-hero__title-wrapper {
+			background: linear-gradient(0deg, rgba(0,0,0,0.5) 36%, rgba(46,46,46,0.3) 100%), url("../assets/img/single-posts/post_2.jpg") no-repeat center center /cover;
+		}
+	}
+	&_post_3 {
+		.single-post-hero__title-wrapper {
+			background: linear-gradient(0deg, rgba(0,0,0,0.5) 36%, rgba(46,46,46,0.3) 100%), url("../assets/img/single-posts/post_3.jpg") no-repeat center center /cover;
+		}
+	}
+	&_post_4 {
+		.single-post-hero__title-wrapper {
+			background: linear-gradient(0deg, rgba(0,0,0,0.5) 36%, rgba(46,46,46,0.3) 100%), url("../assets/img/single-posts/post_4.jpg") no-repeat center center /cover;
+		}
+		.single-post-hero__title {
+			&::after {
+				content: 'в Яснополянском плодовом питомнике';
+				display: block;
+				font-size: 2rem;
+				animation-name: fadeIn;
+				animation-delay: 2s;
+				animation-duration: 2s;
+				animation-timing-function: ease;
+				animation-fill-mode: both;
+				opacity: 0;
+			}
+		}
+	}
+	&_post_5 {
+		.single-post-hero__title-wrapper {
+			background: linear-gradient(0deg, rgba(0,0,0,0.5) 36%, rgba(46,46,46,0.3) 100%), url("../assets/img/single-posts/post_5.jpg") no-repeat center center /cover;
+		}
+	}
+	&__subtitle {
+		padding-bottom: 1.5rem;
+		text-align: center;
+		font-style: italic;
+		border-bottom: 1px solid #706F6F;
+	}
+}

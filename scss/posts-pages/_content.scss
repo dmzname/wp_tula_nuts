@@ -1,0 +1,142 @@
+.posts-content {
+	padding: 10rem 0;
+}
+
+.posts-list {
+	margin-bottom: 5rem;
+	&__item {
+		background-color: white;
+		&:not(:last-child) {
+			margin-bottom: 5rem;
+		}
+		&:hover {
+			.posts-list__title {
+				color: #0CFF00;
+			}
+			.posts-list__image span {
+				opacity: 1;
+			}
+			.posts-list__info {
+				border-color: #0CFF00;
+			}
+		}
+	}
+	&__image {
+		position: relative;
+		width: 30rem;
+		flex-shrink: 0;
+		align-self: stretch;
+		font-size: 0;
+		filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.3));
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		span {
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: rgba(12, 255, 0, .5);
+			transition: opacity .3s ease;
+			svg {
+				fill: #fff;
+				width: 10rem
+			}
+		}
+	}
+	&__info {
+		padding: 4rem 3rem 2rem 3rem;
+		border-top: 5px solid #FFC801;
+		transition: border-color .3s ease;
+	}
+	&__title {
+		margin-bottom: 3rem;
+		font: 700 2rem "Montserrat", sans-serif;
+		transition: color .3s ease;
+	}
+	&__subTitle {
+		margin-bottom: 3rem;
+		padding-top: .7rem;
+		font-style: italic;
+		border-top: 1px solid #706F6F;
+	}
+	&__description {
+		text-indent: 1.5rem;
+	}
+}
+
+.posts-signature {
+	margin: auto;
+	max-width: 65rem;
+	&__text {
+		margin-bottom: 2.5rem;
+		text-align: center;
+	}
+	&__name {
+		padding-right: 1rem;
+		text-align: right;
+		font-weight: 700;
+	}
+}
+
+.modal-overlay {
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(235, 210, 143, 0.90);
+	cursor: pointer;
+}
+
+.modal-content {
+	position: relative;
+	width: 850px;
+	height: 100%;
+	max-width: 100%;
+	box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+	cursor: default;
+}
+
+.modal-close {
+	position: absolute;
+	width: 3rem;
+	height: 3rem;
+	top: -1rem;
+	right: -1rem;
+	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	transition: background-color .3s ease;
+	&::before, &::after {
+		content: '';
+		position: absolute;
+		display: inline-block;
+		width: 2rem;
+		height: .02rem;
+		background-color: #000;
+		top: 1.5rem;
+		left: .5rem;
+	}
+	&::before {
+		transform: rotate(45deg);
+	}
+	&::after {
+		transform: rotate(-45deg);
+	}
+	&:hover {
+		background-color: #0CFF00;
+	}
+}
