@@ -59,12 +59,12 @@
         </div>
       </div>
       <div class="header__social social d-flex">
-        <a href="http://vk.com" target="_blank">
+        <a href="https://vk.com/evasin65" target="_blank">
           <svg width="38" height="38" fill="#706F6F" xmlns:xlink="http://www.w3.org/1999/xlink">
             <use xlink:href="<?php echo $dmz_link_assets . '/img/svg-sprites.svg#vk' ?>"></use>
           </svg>
         </a>
-        <a href="http://ok.com" target="_blank">
+        <a href="https://ok.ru/profile/541035295012?utm_campaign=mobile_share&utm_content=profile" target="_blank">
           <svg width="38" height="38" fill="#706F6F" xmlns:xlink="http://www.w3.org/1999/xlink">
             <use xlink:href="<?php echo $dmz_link_assets . '/img/svg-sprites.svg#ok' ?>"></use>
           </svg>

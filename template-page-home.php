@@ -45,6 +45,7 @@ get_header();
         </div>
       </div>
     </section>
+
     <section class="about" id="about">
       <div class="about__container container">
         <div class="about__knowing knowing d-flex">
@@ -90,6 +91,7 @@ get_header();
         </div>
       </div>
     </section>
+
     <section class="progress scroll-effects">
       <div class="progress__container container">
         <h2 class="progress__title">На сегодняшний день</h2>
@@ -129,6 +131,7 @@ get_header();
         </div>
       </div>
     </section>
+
     <section class="history">
       <div class="history__container container scroll-effects">
         <h2 class="history__title section-title">
@@ -185,6 +188,7 @@ get_header();
         </div>
       </div>
     </section>
+
     <section class="range">
       <div class="range__container container scroll-effects">
         <h2 class="range__title section-title">
@@ -247,6 +251,7 @@ get_header();
         <a href="https://disk.yandex.ru/i/FkFwMaUgC1F94A" target="_blank" class="range__btn scroll-effects btn">Смотреть прайслист</a>
       </div>
     </section>
+
     <section class="delivery" id="delivery">
       <div class="delivery__container container scroll-effects">
         <h2 class="delivery__title section-title">
@@ -282,6 +287,7 @@ get_header();
         <img src="<?php echo $dmz_link_assets . '/img/home-page/delivery-5.jpg' ?>" alt="delivery-5">
       </div>
     </section>
+
     <section class="contacts" id="contacts">
       <div class="contacts__container container d-flex">
         <div class="contacts__info info">
@@ -325,6 +331,7 @@ get_header();
         </form>
       </div>
     </section>
+    
   </main>
 
 <?php
