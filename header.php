@@ -69,7 +69,7 @@
             <use xlink:href="<?php echo $dmz_link_assets . '/img/svg-sprites.svg#ok' ?>"></use>
           </svg>
         </a>
-        <a href="http://tg.com" target="_blank">
+        <a href="https://t.me/+79606194781" target="_blank">
           <svg width="38" height="38" fill="#706F6F" xmlns:xlink="http://www.w3.org/1999/xlink">
             <use xlink:href="<?php echo $dmz_link_assets . '/img/svg-sprites.svg#tg' ?>"></use>
           </svg>

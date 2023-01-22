@@ -21,7 +21,7 @@ get_header();
           </div>
           <h1 class="offer__title animate-title">Качественные саженцы</h1>
           <p class="offer__subtitle">орехоплодных и&nbsp;других&nbsp;культур</p>
-          <p class="offer__descr">Заказы принимаются круглый год</p>
+          <p class="offer__descr">Заказы принимаются круглый год </p>
           <a class="offer__btn scroll btn" href="#contacts">Заказать</a>
           <a class="offer__play" data-fslightbox="video" href="<?php echo $dmz_link_assets . '/video/1tulatv.mp4' ?>">
             <svg width="58" height="58" viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg">
@@ -311,24 +311,7 @@ get_header();
             <a class="info__surv-link" href="http://www.lesopatolog-tula.ru" target="_blank">Обследование деревьев</a>
           </div>
         </div>
-        <form class="contacts__form form">
-          <h4 class="form__title">Для оформления заказа</h4>
-          <p class="form__descr">предлагаю заполнить форму</p>
-          <fieldset>
-            <legend>Форма обратной связи</legend>
-            <span>
-              <input class="form__input form-control" type="text" name="name" autocomplete="off" placeholder="Ваше Имя" data-validate-field="name">
-            </span>
-            <span>
-              <input class="form__input form-control" type="tel" name="tel" autocomplete="off" placeholder="Ваш телефон" data-validate-field="tel" data-validate-rules="phone">
-            </span>
-            <span>
-              <input class="form__input form-control" type="email" placeholder="Ваш E-mail" autocomplete="off" name="email" data-validate-field="mail">
-            </span>
-            <textarea class="form__textarea" name="text" placeholder="Сообщение"></textarea>
-            <button class="form__btn btn-primary btn">Заказать</button>
-          </fieldset>
-        </form>
+        <?php echo do_shortcode('[contact-form-7 id="70" title="Контактная форма 1" html_class="contacts__form form"]') ?>
       </div>
     </section>
     

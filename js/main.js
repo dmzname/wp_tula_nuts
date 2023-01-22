@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const blockID = document.location.hash;
     const id = blockID.split('#')[1];
     scrollToBlock(id);
+    history.pushState(null, document.title, '/');
   });
 
   // Title H1 animated

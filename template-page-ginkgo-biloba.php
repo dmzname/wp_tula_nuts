@@ -23,7 +23,7 @@ get_header();
       <div class="content__container container">
         <div class="content__walnut content-float">
           <div class="content-float__image">
-            <img src="<? php echo $dmz_link_assets . '/img/ginkgo-biloba/tree-ginkgo.jpg' ?>" alt="Дерево Гинкго билоба">
+            <img src="<?php echo $dmz_link_assets . '/img/ginkgo-biloba/tree-ginkgo.jpg' ?>" alt="Дерево Гинкго билоба">
           </div>
           <div class="content-float__info scroll-effects">
             <h2 class="content-float__title section-title">
@@ -45,7 +45,7 @@ get_header();
             <p class="content-descr__txt">Утонченная и уникальная форма листьев гинкго с древности использовалась в декоративных целях.</p>
           </div>
           <div class="content-descr__info">
-            <img class="content-descr__img" src="<? php echo $dmz_link_assets . '/img/ginkgo-biloba/ginkgo-bloom.jpg' ?>" alt="побеги грецкого ореха">
+            <img class="content-descr__img" src="<?php echo $dmz_link_assets . '/img/ginkgo-biloba/ginkgo-bloom.jpg' ?>" alt="побеги грецкого ореха">
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@ get_header();
       <div class="content__container container">
         <div class="content-flex content-flex-left d-flex">
           <div class="content-flex__img">
-            <img src="<? php echo $dmz_link_assets . '/img/ginkgo-biloba/ginkgo-shoots(1).jpg' ?>" alt="Мужские колоски Гинкго билоба">
+            <img src="<?php echo $dmz_link_assets . '/img/ginkgo-biloba/ginkgo-shoots(1).jpg' ?>" alt="Мужские колоски Гинкго билоба">
             <p class="content-flex__img-descr">Мужские колоски Гинкго билоба</p>
           </div>
           <div class="content-flex__info">
@@ -67,7 +67,7 @@ get_header();
         </div>
         <div class="content-flex content-flex-right d-flex">
           <div class="content-flex__img">
-            <img src="<? php echo $dmz_link_assets . '/img/ginkgo-biloba/ginkgo-shoots(2).jpg' ?>" alt="Женский цветок Гинкго билоба">
+            <img src="<?php echo $dmz_link_assets . '/img/ginkgo-biloba/ginkgo-shoots(2).jpg' ?>" alt="Женский цветок Гинкго билоба">
             <p class="content-flex__img-descr">Женский цветок Гинкго билоба</p>
           </div>
           <div class="content-flex__info">
@@ -77,7 +77,7 @@ get_header();
         </div>
         <div class="content-flex content-flex-left d-flex">
           <div class="content-flex__img">
-            <img src="<? php echo $dmz_link_assets . '/img/ginkgo-biloba/ginkgo-shoots(3).jpg' ?>" alt="Ветвь Гинкго двулопастного с плодами">
+            <img src="<?php echo $dmz_link_assets . '/img/ginkgo-biloba/ginkgo-shoots(3).jpg' ?>" alt="Ветвь Гинкго двулопастного с плодами">
             <p class="content-flex__img-descr">Ветвь Гинкго двулопастного с плодами</p>
           </div>
           <div class="content-flex__info">
@@ -118,14 +118,14 @@ get_header();
             <div class="card-wrapper">
               <div class="card pd-0">
                 <div class="card__img">
-                  <img src="<? php echo $dmz_link_assets . '/img/ginkgo-biloba/mansory-img.jpg' ?>" alt="image">
+                  <img src="<?php echo $dmz_link_assets . '/img/ginkgo-biloba/mansory-img.jpg' ?>" alt="image">
                 </div>
               </div>
             </div>
             <div class="card-wrapper">
               <div class="card">
                 <div class="card__icon">
-                  <img src="<? php echo $dmz_link_assets . '/img/card-icon-13.png' ?>" alt="Против старения">
+                  <img src="<?php echo $dmz_link_assets . '/img/card-icon-13.png' ?>" alt="Против старения">
                 </div>
                 <p class="card__title">Против старения</p>
                 <div class="card__descr">
@@ -136,7 +136,7 @@ get_header();
             <div class="card-wrapper">
               <div class="card">
                 <div class="card__icon">
-                  <img src="<? php echo $dmz_link_assets . '/img/card-icon-14.png' ?>" alt="В проктологии">
+                  <img src="<?php echo $dmz_link_assets . '/img/card-icon-14.png' ?>" alt="В проктологии">
                 </div>
                 <p class="card__title">В проктологии</p>
                 <div class="card__descr">
@@ -147,7 +147,7 @@ get_header();
             <div class="card-wrapper">
               <div class="card">
                 <div class="card__icon">
-                  <img src="<? php echo $dmz_link_assets . '/img/card-icon-15.png' ?>" alt="Биологически активные вещества">
+                  <img src="<?php echo $dmz_link_assets . '/img/card-icon-15.png' ?>" alt="Биологически активные вещества">
                 </div>
                 <p class="card__title">Биологически
                   <br>активные вещества
@@ -162,7 +162,7 @@ get_header();
             <div class="card-wrapper">
               <div class="card">
                 <div class="card__icon">
-                  <img src="<? php echo $dmz_link_assets . '/img/card-icon-16.png' ?>" alt="При сердечно-сосудистых болезнях">
+                  <img src="<?php echo $dmz_link_assets . '/img/card-icon-16.png' ?>" alt="При сердечно-сосудистых болезнях">
                 </div>
                 <p class="card__title">При сердечно-сосудистых болезнях</p>
                 <div class="card__descr">
@@ -173,7 +173,7 @@ get_header();
             <div class="card-wrapper">
               <div class="card">
                 <div class="card__icon">
-                  <img src="<? php echo $dmz_link_assets . '/img/card-icon-17.png' ?>" alt="Гинкго и алкоголь">
+                  <img src="<?php echo $dmz_link_assets . '/img/card-icon-17.png' ?>" alt="Гинкго и алкоголь">
                 </div>
                 <p class="card__title">Гинкго и алкоголь</p>
                 <div class="card__descr">
