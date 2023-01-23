@@ -23,7 +23,7 @@
 					<a class="footer__logo" href="<?php echo get_home_url(); ?>">
 						<img src="<?php echo $dmz_link_assets . '/img/logo-footer.svg' ?>" alt="Логотип">
 					</a>
-					<p class="footer__txt">© Дизайн сайта<a href="mailto:x.andvlad@gmail.com">Андрея Введенского</a>разработка 2022</p>
+					<p class="footer__txt">© Дизайн сайта<a href="https://www.behance.net/xandvladda26" target="_blank">Андрея Введенского</a>разработка 2022</p>
 				</div>
 			</footer>
 			<a class="arrow-up" href="/#main" hidden>

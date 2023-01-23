@@ -1,20 +1,25 @@
 .footer {
-	padding: 4rem 0;
-	background-color: #87694D;
-	&__container {
-		align-items: center;
-		justify-content: space-between;
-	}
-	&__txt {
-		max-width: 27rem;
-		font-family: Montserrat, sans-serif;
-		font-size: 1.6rem;
-		color: #fff;
-		&:last-child {
-			text-align: right;
-		}
-		a {
-			display: block;
-		}
-	}
+  padding: 4rem 0;
+  background-color: #87694d;
+  &__container {
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__txt {
+    max-width: 27rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    &:last-child {
+      text-align: right;
+    }
+    a {
+      display: block;
+      text-decoration: underline;
+      transition: color 0.3s ease;
+      &:hover {
+        color: $green;
+      }
+    }
+  }
 }
