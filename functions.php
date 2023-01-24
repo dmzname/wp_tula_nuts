@@ -22,6 +22,9 @@ if ( get_stylesheet_directory() == get_template_directory() ) {
 	define( 'DMZ_URL_ASSETS', get_theme_root_uri() . '/tula_nuts/assets' );
 }
 
+define('WIFE_SITE_URL', 'http://www.lesopatolog-tula.ru');
+define('PRICE_LIST_URL', 'https://disk.yandex.ru/i/FkFwMaUgC1F94A');
+
 // include system functions
 	require_once ( DMZ_THEME_DIR . '/constants.php' );	
 

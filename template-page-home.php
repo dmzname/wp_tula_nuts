@@ -216,7 +216,7 @@ get_header();
                   <img class="card__img" src="<?php echo $dmz_link_assets . '/img/home-page/nut-range-4.jpg' ?>" alt="Орех черный">
                 </div>
               </div>              
-              <a href="https://disk.yandex.ru/i/FkFwMaUgC1F94A" target="_blank" class="card__price-link">подробнее</a>
+              <a href="<?php echo PRICE_LIST_URL; ?>" target="_blank" class="card__price-link">подробнее</a>
             </div>
           </div>
           <div class="range__card card card_right">
@@ -243,12 +243,12 @@ get_header();
                   <img class="card__img" src="<?php echo $dmz_link_assets . '/img/home-page/nut-range-8.jpg' ?>" alt="Лель">
                 </div>
               </div>              
-              <a href="https://disk.yandex.ru/i/FkFwMaUgC1F94A" target="_blank" class="card__price-link">подробнее</a>
+              <a href="<?php echo PRICE_LIST_URL; ?>" target="_blank" class="card__price-link">подробнее</a>
             </div>
           </div>
         </div>
         <p class="range__description">Ассортимент постоянно расширяется!</p>
-        <a href="https://disk.yandex.ru/i/FkFwMaUgC1F94A" target="_blank" class="range__btn scroll-effects btn">Смотреть прайслист</a>
+        <a href="<?php echo PRICE_LIST_URL; ?>" target="_blank" class="range__btn scroll-effects btn">Смотреть прайслист</a>
       </div>
     </section>
 
@@ -308,7 +308,7 @@ get_header();
             <p class="info__surv-txt">
               <span>Консультации</span> по посадке, уходу, агротехнике;
             </p>
-            <a class="info__surv-link" href="http://www.lesopatolog-tula.ru" target="_blank">Обследование деревьев</a>
+            <a class="info__surv-link" href="<?php echo WIFE_SITE_URL; ?>" target="_blank">Обследование деревьев</a>
           </div>
         </div>
         <?php echo do_shortcode('[contact-form-7 id="70" title="Контактная форма 1" html_class="contacts__form form"]') ?>

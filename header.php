@@ -85,7 +85,7 @@
 
          <div class="header__btn-group btn-group d-flex">
             <a class="btn-group__btn" href="/#contacts">ЗАКАЗАТЬ</a>
-            <a class="btn-group__btn" href="https://disk.yandex.ru/i/FkFwMaUgC1F94A" target="_blank">ПРАЙСЛИСТ</a>
+            <a class="btn-group__btn" href="<?php echo PRICE_LIST_URL; ?>" target="_blank">ПРАЙСЛИСТ</a>
          </div>
 
       <?php endif; ?>

@@ -119,7 +119,7 @@ get_header();
             <p class="agro-surv__txt">
               <span>Консультации</span> по посадке, уходу, агротехнике;
             </p>
-            <a class="agro-surv__link" href="http://www.lesopatolog-tula.ru" target="_blank">Обследование деревьев</a>
+            <a class="agro-surv__link" href="<?php echo WIFE_SITE_URL; ?>" target="_blank">Обследование деревьев</a>
           </div>
         </div>
       </div>
