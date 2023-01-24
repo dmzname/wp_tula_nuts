@@ -30,3 +30,98 @@
 		tgmpa( $plugins, $config );
 	}
 	add_action( 'tgmpa_register', 'dmz_register_required_plugins' );
+
+	// *Чистит строку, оставляя в ней только указанные HTML теги, их атрибуты и значения атрибутов.
+	function dmz_wp_kses( $dmz_string )
+	{
+		$allowed_tags = [
+			'img' => [
+				'src'		=>	[],
+				'alt'		=>	[],
+				'width'	=>	[],
+				'height'	=>	[],
+				'class'	=>	[],
+			],
+			'a' => [
+				'href'	=>	[],
+				'title'	=>	[],
+				'class'	=>	[],
+			],
+			'b' => [],
+			'span' => [
+				'class'	=>	[],
+			],
+			'div' => [
+				'class'	=>	[],
+				'id'		=>	[],
+			],
+			'h1' => [
+				'class'	=>	[],
+				'id'		=>	[],
+			],
+			'h2' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'h3' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'h4' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'h5' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'h6' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'p' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'strong' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'br' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'i' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'del' => [
+				'class'	=> [],
+				'id'		=> [],
+			],	
+			'ul' => [
+				'class'	=> [],
+				'id'		=> [],
+			],	
+			'li' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'ol' => [
+				'class'	=> [],
+				'id'		=> [],
+			],
+			'input' => [
+				'class'	=> [],
+				'id'		=> [],
+				'type'	=> [],
+				'style'	=> [],
+				'name'	=> [],
+				'value'	=> [],
+			],
+		];
+
+		if ( function_exists( 'wp_kses' ) ):
+			 return wp_kses( $dmz_string, $allowed_tags );
+		endif;
+  }

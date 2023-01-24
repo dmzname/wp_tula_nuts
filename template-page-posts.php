@@ -52,7 +52,7 @@ get_header();
 											<?php echo get_the_title(); ?>
 										</h3>
 										<p class="posts-list__subTitle">											
-											<?php echo get_the_excerpt(); ?>
+											<?php echo dmz_wp_kses(get_field('dmz_subtitle')); ?>
 										</p>
 										<p class="posts-list__description">
 											<?php echo get_field('dmz_desc'); ?>
