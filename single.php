@@ -13,6 +13,7 @@
 ?>
 
 		<main id="main" class="main">
+			<?php get_template_part( 'snippets/menu' ); ?>
 
 			<section class="single-post-hero beige single-post-hero_post_1">
 				<div class="single-post-hero__container container">
@@ -24,8 +25,9 @@
 					<p class="single-post-hero__subtitle">
 						<?php echo get_field('dmz_subtitle'); ?>
 					</p>
-				</div>
+				</div>			
 			</section>
+			
 			<section class="posts-content beige">
 				<div class="container">
 					<?php echo get_the_content(); ?>

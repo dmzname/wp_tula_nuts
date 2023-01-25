@@ -57,8 +57,8 @@ get_header();
       <div class="content__container container">
         <div class="content__walnut content-flex content-flex-left d-flex">
           <div class="content-flex__img">
-            <img src="<?php echo $dmz_link_assets . '/img/heart-shaped/siebold-walnut-flowers.jpg' ?>" alt="Цветение ореха айлантолистного Зибольда">
-            <p class="content-flex__img-descr">Цветение ореха айлантолистного Зибольда</p>
+            <img src="<?php echo $dmz_link_assets . '/img/heart-shaped/heart-shaped-flowers.jpg' ?>" alt="Женское цветение ореха сердцевидного">
+            <p class="content-flex__img-descr">Женское цветение ореха сердцевидного</p>
           </div>
           <div class="content-flex__info">
             <p class="content-flex__txt">

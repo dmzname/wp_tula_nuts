@@ -102,7 +102,7 @@ get_header();
               <img src="<?php echo $dmz_link_assets . '/img/home-page/card-progress-1.png' ?>" alt="Опыт и практика">
             </div>
             <p class="card__number card__number_first">30</p>
-            <p class="card__descr">Опыта и практики селекционных достижений</p>
+            <p class="card__descr">Лет опыта и&nbsp;практики селекционных достижений</p>
           </div>
           <div class="progress__card card">
             <div class="card__icon">
